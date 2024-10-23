@@ -76,7 +76,7 @@ void Matrix<T>::InputMatrixFromFile(std::string path) {
 		fin.open(path);
 	} 
 	catch (const std::ios_base::failure& e) { 
-		throw ProjectException("Ошибка имени файла.");
+		throw ProjectException("ГЋГёГЁГЎГЄГ  ГЁГ¬ГҐГ­ГЁ ГґГ Г©Г«Г .");
 	}
 	std::string info;
 	std::vector<T> elements;
@@ -117,7 +117,7 @@ void Matrix<T>::InputMatrixFromFile(std::string path) {
 
 template<class T>
 void Matrix<T>::InputOwnMatrix() {
-	std::cout << "Введите элементы матрицы:" << std::endl;
+	std::cout << "Г‚ГўГҐГ¤ГЁГІГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ» Г¬Г ГІГ°ГЁГ¶Г»:" << std::endl;
 	for (size_t i = 0; i < this->rows; i++) {
 		for (size_t j = 0; j < this->columns; j++) {
 			std::cin >> this->matrix[i][j];
@@ -129,14 +129,14 @@ template<class T>
 void Matrix<T>::OutputMatrixInFile(std::string path) {
 	while (true) {
 		if (path.find(".txt") == std::string::npos) {
-			std::cout << "Неверное имя файла попробуйте еще раз." << std::endl;
+			std::cout << "ГЌГҐГўГҐГ°Г­Г®ГҐ ГЁГ¬Гї ГґГ Г©Г«Г  ГЇГ®ГЇГ°Г®ГЎГіГ©ГІГҐ ГҐГ№ГҐ Г°Г Г§." << std::endl;
 			std::cin >> path;
 		}
 		else break;
 	}
 	std::ofstream fout;
 	fout.open(path, std::ofstream::app);
-	fout << "Размеры матрицы: " << this->rows << " " << this->columns << "\n" << "Элементы матрицы:" << "\n";
+	fout << "ГђГ Г§Г¬ГҐГ°Г» Г¬Г ГІГ°ГЁГ¶Г»: " << this->rows << " " << this->columns << "\n" << "ГќГ«ГҐГ¬ГҐГ­ГІГ» Г¬Г ГІГ°ГЁГ¶Г»:" << "\n";
 	for (size_t i = 0; i < this->rows; i++) {
 		for (size_t j = 0; j < this->columns; j++) {
 			fout << this->matrix[i][j] << "\t";
@@ -147,7 +147,7 @@ void Matrix<T>::OutputMatrixInFile(std::string path) {
 
 template<class T>
 void Matrix<T>::OutputMatrix() {
-	std::cout << "Размеры матрицы: " << this->rows << " " << this->columns << std::endl << "Элементы матрицы:" << std::endl;
+	std::cout << "ГђГ Г§Г¬ГҐГ°Г» Г¬Г ГІГ°ГЁГ¶Г»: " << this->rows << " " << this->columns << std::endl << "ГќГ«ГҐГ¬ГҐГ­ГІГ» Г¬Г ГІГ°ГЁГ¶Г»:" << std::endl;
 	for (size_t i = 0; i < this->rows; i++) {
 		for (size_t j = 0; j < this->columns; j++) {
 			this->type == INT ? std::cout << " " << std::setw(8) << this->matrix[i][j] : std::cout << " " << std::fixed << std::setprecision(2) << std::setw(10) << this->matrix[i][j];
@@ -203,13 +203,13 @@ bool Matrix<T>::operator==(const Matrix<T>& other) {
 }
 
 template<class T>
-bool Matrix<T>::operator!=(const Matrix<T>& other) { return !(this == other); }
+bool Matrix<T>::operator!=(const Matrix<T>& other) { return !(*this == other); }
 
 template<class T>
 template<class U>
 Matrix<decltype(T{} - U{})> Matrix<T>::operator-(const Matrix<U>& other) {
 	if (this->rows != other.getRows() || this->columns != other.getColumns())
-		throw ProjectException("Невозможно выполнить операцию \"-\" с данными матрицами.");
+		throw ProjectException("ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГўГ»ГЇГ®Г«Г­ГЁГІГј Г®ГЇГҐГ°Г Г¶ГЁГѕ \"-\" Г± Г¤Г Г­Г­Г»Г¬ГЁ Г¬Г ГІГ°ГЁГ¶Г Г¬ГЁ.");
 	Matrix<decltype(T{} - U{})> temp(this->rows, this->columns);
 	for (size_t i = 0; i < this->rows; i++) {
 		for (size_t j = 0; j < this->columns; j++) {
@@ -223,7 +223,7 @@ template<class T>
 template<class U>
 Matrix<decltype(T{} + U{})> Matrix<T>::operator+(const Matrix<U>& other) {
 	if (this->rows != other.getRows() || this->columns != other.getColumns())
-		throw ProjectException("Невозможно выполнить операцию \"+\" с данными матрицами.");
+		throw ProjectException("ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГўГ»ГЇГ®Г«Г­ГЁГІГј Г®ГЇГҐГ°Г Г¶ГЁГѕ \"+\" Г± Г¤Г Г­Г­Г»Г¬ГЁ Г¬Г ГІГ°ГЁГ¶Г Г¬ГЁ.");
 	Matrix<decltype(T{} + U{})> temp(this->rows, this->columns);
 	for (size_t i = 0; i < this->rows; i++) {
 		for (size_t j = 0; j < this->columns; j++) {
@@ -250,7 +250,7 @@ template<class T>
 template<class U>
 Matrix<decltype(T{} * U{})> Matrix<T>::operator*(const Matrix<U>& other) {
 	if (this->columns != other.getRows())
-		throw ProjectException("Невозможно выполнить операцию \"*\" с данными матрицами.");
+		throw ProjectException("ГЌГҐГўГ®Г§Г¬Г®Г¦Г­Г® ГўГ»ГЇГ®Г«Г­ГЁГІГј Г®ГЇГҐГ°Г Г¶ГЁГѕ \"*\" Г± Г¤Г Г­Г­Г»Г¬ГЁ Г¬Г ГІГ°ГЁГ¶Г Г¬ГЁ.");
 	else {
 		Matrix<decltype(T{} * U{})> temp(this->rows, other.getColumns());
 		for (size_t i = 0; i < this->rows; i++) {
