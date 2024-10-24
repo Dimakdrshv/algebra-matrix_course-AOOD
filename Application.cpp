@@ -11,48 +11,48 @@ struct Matrices {
 
 void Application::printMenu() {
     std::cout << "======================================================================\n" <<
-                 " |                       Âûáåðèòå äåéñòâèå                          |\n" <<
-                 " | 1.  Ââåñòè ìàòðèöó âðó÷íóþ                                       |\n" <<
-                 " | 2.  Çàãðóçèòü ìàòðèöó èç ôàéëà                                   |\n" <<
-                 " | 3.  Ñëîæèòü ìàòðèöû                                              |\n" <<
-                 " | 4.  Âû÷åñòü ìàòðèöû                                              |\n" <<
-                 " | 5.  Óìíîæèòü ìàòðèöó íà ÷èñëî                                    |\n" <<
-                 " | 6.  Óìíîæèòü ìàòðèöû                                             |\n" <<
-                 " | 7.  Óìíîæèòü ìàòðèöó íà âåêòîð                                   |\n" <<
-                 " | 8.  Ñðàâíèòü ìàòðèöû                                             |\n" <<
-                 " | 9.  Ïðèñâîåíèå ìàòðèö                                            |\n" <<
-                 " | 10. Çàãðóçèòü çàïèñàííûå ìàòðèöû îïðåäåëåííîãî òèïà â ôàéë       |\n" <<
-                 " | 11. Âûâåñòè ìàòðèöû îïðåäåëåííîãî òèïà íà ýêðàí                  |\n" <<
-                 " | 12. Óäàëèòü ìàòðèöó                                              |\n" <<
-                 " | 13. Î÷èñòèòü êîíñîëü                                             |\n" <<
-                 " | 14. Èíôîðìàöèÿ î ïðîãðàììå                                       |\n" <<
-                 " | 0.  Âûéòè                                                        |\n" <<
+                 " |                       Ã‚Ã»Ã¡Ã¥Ã°Ã¨Ã²Ã¥ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã¥                          |\n" <<
+                 " | 1.  Ã‚Ã¢Ã¥Ã±Ã²Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³ Ã¢Ã°Ã³Ã·Ã­Ã³Ã¾                                       |\n" <<
+                 " | 2.  Ã‡Ã Ã£Ã°Ã³Ã§Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³ Ã¨Ã§ Ã´Ã Ã©Ã«Ã                                    |\n" <<
+                 " | 3.  Ã‘Ã«Ã®Ã¦Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»                                              |\n" <<
+                 " | 4.  Ã‚Ã»Ã·Ã¥Ã±Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»                                              |\n" <<
+                 " | 5.  Ã“Ã¬Ã­Ã®Ã¦Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³ Ã­Ã  Ã·Ã¨Ã±Ã«Ã®                                    |\n" <<
+                 " | 6.  Ã“Ã¬Ã­Ã®Ã¦Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»                                             |\n" <<
+                 " | 7.  Ã“Ã¬Ã­Ã®Ã¦Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³ Ã­Ã  Ã¢Ã¥ÃªÃ²Ã®Ã°                                   |\n" <<
+                 " | 8.  Ã‘Ã°Ã Ã¢Ã­Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»                                             |\n" <<
+                 " | 9.  ÃÃ°Ã¨Ã±Ã¢Ã®Ã¥Ã­Ã¨Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶                                            |\n" <<
+                 " | 10. Ã‡Ã Ã£Ã°Ã³Ã§Ã¨Ã²Ã¼ Ã§Ã Ã¯Ã¨Ã±Ã Ã­Ã­Ã»Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã¢ Ã´Ã Ã©Ã«       |\n" <<
+                 " | 11. Ã‚Ã»Ã¢Ã¥Ã±Ã²Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã­Ã  Ã½ÃªÃ°Ã Ã­                  |\n" <<
+                 " | 12. Ã“Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³                                              |\n" <<
+                 " | 13. ÃŽÃ·Ã¨Ã±Ã²Ã¨Ã²Ã¼ ÃªÃ®Ã­Ã±Ã®Ã«Ã¼                                             |\n" <<
+                 " | 14. ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã¥                                       |\n" <<
+                 " | 0.  Ã‚Ã»Ã©Ã²Ã¨                                                        |\n" <<
                  "======================================================================\n" <<
-                 "Âàø âûáîð: ";
+                 "Ã‚Ã Ã¸ Ã¢Ã»Ã¡Ã®Ã°: ";
 }
 
 void Application::printInfo() {
     std::cout << "======================================================================\n" <<
-                 " |                       Èíôîðìàöèÿ î ïðîãðàììå                     |\n" <<
-                 " |   Ïðîãðàììà íàïèñàíà äëÿ âûïîëíåíèÿ äåéñòâèé ñ ìàòðèöàìè,        |\n" <<
-                 " | êàæäàÿ èç êîòîðûõ èìååò ñîáñòâåííûé òèï äàííûõ, êîòîðûé çàäàåòñÿ |\n" <<
-                 " | ïîëüçîâàòåëåì ñ êëàâèàòóðû. Ìàòðèöû õðàíÿòñÿ â 3 ðàçëè÷íûõ       |\n" <<
-                 " | êîëëåêöèÿõ: Ìàòðèöû öåëî÷èñëåííîãî òèïà äàííûõ - int,            |\n" <<
-                 " | âåùåñòâåííîãî - float, è ðàñøèðåííîãî âåùåñòâåííîãî - double.    |\n" <<
-                 " |   Ïåðåãðóæåííûå îïåðàöèè \"+,-,*\" âûïîëíÿþòñÿ òàêèì îáðàçîì,      |\n" <<
-                 " | ÷òî ïîëó÷èâøàÿ ìàòðèöà çàïèñûâàåòñÿ â êîëëåêöèþ ñ íàèáîëüøèì     |\n" <<
-                 " | òèïîì äàííûõ, îòíîñèòåëüíî ìàòðèö\\÷èñåë, ñ êîòîðîìè              |\n" <<
-                 " | ïðîèçâîäÿòñÿ äåéñòâèÿ.                                           |\n" <<
-                 " |   Ïðåãðóæåííûå îïåðàöèè \"==, =\" âûïîëíÿþòñÿ îòíîñèòåëüíî         |\n" <<
-                 " | ìàòðèö îäíîãî òèïà äàííûõ.                                       |\n" <<
-                 " |   Òàêæå ïðåäóñìîòðåíà îïåðàöèÿ óäàëåíèÿ ìàòðèö è ïðåäëîæåíû      |\n" <<
-                 " | âàðèàíòû ââîäà-âûâîäà ïîëó÷èâøèõñÿ ìàòðèö.                       |\n" <<
+                 " |                       ÃˆÃ­Ã´Ã®Ã°Ã¬Ã Ã¶Ã¨Ã¿ Ã® Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã¥                     |\n" <<
+                 " |   ÃÃ°Ã®Ã£Ã°Ã Ã¬Ã¬Ã  Ã­Ã Ã¯Ã¨Ã±Ã Ã­Ã  Ã¤Ã«Ã¿ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¥Ã­Ã¨Ã¿ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã© Ã± Ã¬Ã Ã²Ã°Ã¨Ã¶Ã Ã¬Ã¨,        |\n" <<
+                 " | ÃªÃ Ã¦Ã¤Ã Ã¿ Ã¨Ã§ ÃªÃ®Ã²Ã®Ã°Ã»Ãµ Ã¨Ã¬Ã¥Ã¥Ã² Ã±Ã®Ã¡Ã±Ã²Ã¢Ã¥Ã­Ã­Ã»Ã© Ã²Ã¨Ã¯ Ã¤Ã Ã­Ã­Ã»Ãµ, ÃªÃ®Ã²Ã®Ã°Ã»Ã© Ã§Ã Ã¤Ã Ã¥Ã²Ã±Ã¿ |\n" <<
+                 " | Ã¯Ã®Ã«Ã¼Ã§Ã®Ã¢Ã Ã²Ã¥Ã«Ã¥Ã¬ Ã± ÃªÃ«Ã Ã¢Ã¨Ã Ã²Ã³Ã°Ã». ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» ÃµÃ°Ã Ã­Ã¿Ã²Ã±Ã¿ Ã¢ 3 Ã°Ã Ã§Ã«Ã¨Ã·Ã­Ã»Ãµ       |\n" <<
+                 " | ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¿Ãµ: ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã¶Ã¥Ã«Ã®Ã·Ã¨Ã±Ã«Ã¥Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã¤Ã Ã­Ã­Ã»Ãµ - int,            |\n" <<
+                 " | Ã¢Ã¥Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã­Ã®Ã£Ã® - float, Ã¨ Ã°Ã Ã±Ã¸Ã¨Ã°Ã¥Ã­Ã­Ã®Ã£Ã® Ã¢Ã¥Ã¹Ã¥Ã±Ã²Ã¢Ã¥Ã­Ã­Ã®Ã£Ã® - double.    |\n" <<
+                 " |   ÃÃ¥Ã°Ã¥Ã£Ã°Ã³Ã¦Ã¥Ã­Ã­Ã»Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¨ \"+,-,*\" Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¿Ã¾Ã²Ã±Ã¿ Ã²Ã ÃªÃ¨Ã¬ Ã®Ã¡Ã°Ã Ã§Ã®Ã¬,      |\n" <<
+                 " | Ã·Ã²Ã® Ã¯Ã®Ã«Ã³Ã·Ã¨Ã¢Ã¸Ã Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã  Ã§Ã Ã¯Ã¨Ã±Ã»Ã¢Ã Ã¥Ã²Ã±Ã¿ Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¾ Ã± Ã­Ã Ã¨Ã¡Ã®Ã«Ã¼Ã¸Ã¨Ã¬     |\n" <<
+                 " | Ã²Ã¨Ã¯Ã®Ã¬ Ã¤Ã Ã­Ã­Ã»Ãµ, Ã®Ã²Ã­Ã®Ã±Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã® Ã¬Ã Ã²Ã°Ã¨Ã¶\\Ã·Ã¨Ã±Ã¥Ã«, Ã± ÃªÃ®Ã²Ã®Ã°Ã®Ã¬Ã¨              |\n" <<
+                 " | Ã¯Ã°Ã®Ã¨Ã§Ã¢Ã®Ã¤Ã¿Ã²Ã±Ã¿ Ã¤Ã¥Ã©Ã±Ã²Ã¢Ã¨Ã¿.                                           |\n" <<
+                 " |   ÃÃ°Ã¥Ã£Ã°Ã³Ã¦Ã¥Ã­Ã­Ã»Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¨ \"==, =\" Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¿Ã¾Ã²Ã±Ã¿ Ã®Ã²Ã­Ã®Ã±Ã¨Ã²Ã¥Ã«Ã¼Ã­Ã®         |\n" <<
+                 " | Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã®Ã¤Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã¤Ã Ã­Ã­Ã»Ãµ.                                       |\n" <<
+                 " |   Ã’Ã ÃªÃ¦Ã¥ Ã¯Ã°Ã¥Ã¤Ã³Ã±Ã¬Ã®Ã²Ã°Ã¥Ã­Ã  Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿ Ã³Ã¤Ã Ã«Ã¥Ã­Ã¨Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã¨ Ã¯Ã°Ã¥Ã¤Ã«Ã®Ã¦Ã¥Ã­Ã»      |\n" <<
+                 " | Ã¢Ã Ã°Ã¨Ã Ã­Ã²Ã» Ã¢Ã¢Ã®Ã¤Ã -Ã¢Ã»Ã¢Ã®Ã¤Ã  Ã¯Ã®Ã«Ã³Ã·Ã¨Ã¢Ã¸Ã¨ÃµÃ±Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶.                       |\n" <<
                  "======================================================================\n";
 }
 
 void Application::InputMatrixSettings(short int& type, short int& rows, short int& columns) {
     std::cout << "======================================================\n" 
-              << " |           Ââåäèòå òèï ââîäèìîé ìàòðèöû           |\n" 
+              << " |           Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¢Ã¢Ã®Ã¤Ã¨Ã¬Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»           |\n" 
               << " | 1. int                                           |\n" 
               << " | 2. float                                         |\n" 
               << " | 3. double                                        |\n" 
@@ -61,30 +61,30 @@ void Application::InputMatrixSettings(short int& type, short int& rows, short in
         std::cout << ">>> ";
         std::cin >> type;
         if (type >= 1 && type <= 3) break;
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
-    std::cout << "Ââåäèòå êîëè÷åñòâî ñòðîê ìàòðèöû\n";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã±Ã²Ã°Ã®Ãª Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»\n";
     while (true) {
         std::cout << ">>> ";
         std::cin >> rows;
         if (rows >= 1 && rows <= 6) break;
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
-    std::cout << "Ââåäèòå êîëè÷åñòâî ñòîáöîâ ìàòðèöû\n";
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã±Ã²Ã®Ã¡Ã¶Ã®Ã¢ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»\n";
     while (true) {
         std::cout << ">>> ";
         std::cin >> columns;
         if (columns >= 1 && columns <= 6) break;
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
 }
 
 void Application::InputMatrixSettings(std::string& path, short int& type) {
-    std::cout << "Ââåäèòå ïóòü äî ôàéëà, ñ êîòîðîãî õîòèòå ñ÷èòàòü ìàòðèöó\n"
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã³Ã²Ã¼ Ã¤Ã® Ã´Ã Ã©Ã«Ã , Ã± ÃªÃ®Ã²Ã®Ã°Ã®Ã£Ã® ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã±Ã·Ã¨Ã²Ã Ã²Ã¼ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³\n"
               << ">>> ";
     std::cin >> path;
     std::cout << "======================================================\n"
-              << " |           Ââåäèòå òèï ââîäèìîé ìàòðèöû           |\n"
+              << " |           Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¢Ã¢Ã®Ã¤Ã¨Ã¬Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»           |\n"
               << " | 1. int                                           |\n"
               << " | 2. float                                         |\n"
               << " | 3. double                                        |\n"
@@ -93,7 +93,7 @@ void Application::InputMatrixSettings(std::string& path, short int& type) {
         std::cout << ">>> ";
         std::cin >> type;
         if (type >= 1 && type <= 3) break;
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
 }
 
@@ -103,26 +103,26 @@ void Application::InputType(short int& type) {
         std::cin >> type;
         if (type == 1) {
             if (matrices.intMatrices.size() != 0) {
-                std::cout << "Êîëè÷åñòâî ìàòðèö ñ äàííûì òèïîì äàííûõ: " << matrices.intMatrices.size() << std::endl;
+                std::cout << "ÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã± Ã¤Ã Ã­Ã­Ã»Ã¬ Ã²Ã¨Ã¯Ã®Ã¬ Ã¤Ã Ã­Ã­Ã»Ãµ: " << matrices.intMatrices.size() << std::endl;
                 break;
             }
-            else std::cout << "Â äàííîì òèïå äàííûõ ïîêà íåò çàäàííûõ ìàòðèö." << std::endl;
+            else std::cout << "Ã‚ Ã¤Ã Ã­Ã­Ã®Ã¬ Ã²Ã¨Ã¯Ã¥ Ã¤Ã Ã­Ã­Ã»Ãµ Ã¯Ã®ÃªÃ  Ã­Ã¥Ã² Ã§Ã Ã¤Ã Ã­Ã­Ã»Ãµ Ã¬Ã Ã²Ã°Ã¨Ã¶." << std::endl;
         }
         else if (type == 2) {
             if (matrices.floatMatrices.size() != 0) {
-                std::cout << "Êîëè÷åñòâî ìàòðèö ñ äàííûì òèïîì äàííûõ: " << matrices.floatMatrices.size() << std::endl;
+                std::cout << "ÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã± Ã¤Ã Ã­Ã­Ã»Ã¬ Ã²Ã¨Ã¯Ã®Ã¬ Ã¤Ã Ã­Ã­Ã»Ãµ: " << matrices.floatMatrices.size() << std::endl;
                 break;
             }
-            else std::cout << "Â äàííîì òèïå äàííûõ ïîêà íåò çàäàííûõ ìàòðèö." << std::endl;
+            else std::cout << "Ã‚ Ã¤Ã Ã­Ã­Ã®Ã¬ Ã²Ã¨Ã¯Ã¥ Ã¤Ã Ã­Ã­Ã»Ãµ Ã¯Ã®ÃªÃ  Ã­Ã¥Ã² Ã§Ã Ã¤Ã Ã­Ã­Ã»Ãµ Ã¬Ã Ã²Ã°Ã¨Ã¶." << std::endl;
         }
         else if (type == 3) {
             if (matrices.doubleMatrices.size() != 0) {
-                std::cout << "Êîëè÷åñòâî ìàòðèö ñ äàííûì òèïîì äàííûõ: " << matrices.doubleMatrices.size() << std::endl;
+                std::cout << "ÃŠÃ®Ã«Ã¨Ã·Ã¥Ã±Ã²Ã¢Ã® Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã± Ã¤Ã Ã­Ã­Ã»Ã¬ Ã²Ã¨Ã¯Ã®Ã¬ Ã¤Ã Ã­Ã­Ã»Ãµ: " << matrices.doubleMatrices.size() << std::endl;
                 break;
             }
-            else std::cout << "Â äàííîì òèïå äàííûõ ïîêà íåò çàäàííûõ ìàòðèö." << std::endl;
+            else std::cout << "Ã‚ Ã¤Ã Ã­Ã­Ã®Ã¬ Ã²Ã¨Ã¯Ã¥ Ã¤Ã Ã­Ã­Ã»Ãµ Ã¯Ã®ÃªÃ  Ã­Ã¥Ã² Ã§Ã Ã¤Ã Ã­Ã­Ã»Ãµ Ã¬Ã Ã²Ã°Ã¨Ã¶." << std::endl;
         }
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
 }
 
@@ -133,61 +133,61 @@ void Application::InputValue(short int& value, short int type) {
         if (type == 1 && value > 0 && value <= matrices.intMatrices.size()) break;
         else if (type == 2 && value > 0 && value <= matrices.floatMatrices.size()) break;
         else if (type == 3 && value > 0 && value <= matrices.doubleMatrices.size()) break;
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
 }
 
 void Application::InputForOperations(short int& type1, short int& type2, short int& value1, short int& value2, short int operationNumber) {
     if (operationNumber == 3 || operationNumber == 4 || operationNumber == 6) {
         std::cout << "======================================\n"
-                  << " |    Ââåäèòå òèï ïåðâîé ìàòðèöû    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¯Ã¥Ã°Ã¢Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n"
                   << " | 1. int                           |\n"
                   << " | 2. float                         |\n"
                   << " | 3. double                        |\n"
                   << "======================================\n";
         InputType(type1);
-        std::cout << "Ââåäèòå íîìåð ìàòðèöû â êîëëåêöèè ìàòðèö äàííîãî òèïà" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã¤Ã Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã " << std::endl;
         InputValue(value1, type1);
         std::cout << "======================================\n"
-                  << " |    Ââåäèòå òèï âòîðîé ìàòðèöû    |\n" 
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¢Ã²Ã®Ã°Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n" 
                   << " | 1. int                           |\n"
                   << " | 2. float                         |\n"
                   << " | 3. double                        |\n"
                   << "======================================\n";
         InputType(type2);
-        std::cout << "Ââåäèòå íîìåð ìàòðèöû â êîëëåêöèè ìàòðèö äàííîãî òèïà" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶ Ã¤Ã Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã " << std::endl;
         InputValue(value2, type2);
         std::cout << "=======================================================================\n" 
-                  << " | Åñëè îïåðàöèÿ âûïîëíèòñÿ, òî ïîëó÷èâøàÿñÿ ìàòðèöà áóäåò äîáàâëåíà |\n"
-                  << " | â êîëëåêöèþ, êîòîðàÿ èìååò áîëüøèé òèï äàííûõ, èíà÷å âûâåäåòñÿ    |\n" 
-                  << " | ñîîáùåíèå îá îøèáêå.                                              |\n"
+                  << " | Ã…Ã±Ã«Ã¨ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¨Ã²Ã±Ã¿, Ã²Ã® Ã¯Ã®Ã«Ã³Ã·Ã¨Ã¢Ã¸Ã Ã¿Ã±Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã  Ã¡Ã³Ã¤Ã¥Ã² Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã  |\n"
+                  << " | Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¾, ÃªÃ®Ã²Ã®Ã°Ã Ã¿ Ã¨Ã¬Ã¥Ã¥Ã² Ã¡Ã®Ã«Ã¼Ã¸Ã¨Ã© Ã²Ã¨Ã¯ Ã¤Ã Ã­Ã­Ã»Ãµ, Ã¨Ã­Ã Ã·Ã¥ Ã¢Ã»Ã¢Ã¥Ã¤Ã¥Ã²Ã±Ã¿    |\n" 
+                  << " | Ã±Ã®Ã®Ã¡Ã¹Ã¥Ã­Ã¨Ã¥ Ã®Ã¡ Ã®Ã¸Ã¨Ã¡ÃªÃ¥.                                              |\n"
                   << "=======================================================================\n";
     }
     else if (operationNumber == 8 || operationNumber == 9) {
         std::cout << "==============================\n"
-                  << " |    Ââåäèòå òèï ìàòðèö    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¬Ã Ã²Ã°Ã¨Ã¶    |\n"
                   << " | 1. int                   |\n"
                   << " | 2. float                 |\n"
                   << " | 3. double                |\n"
                   << "==============================\n";
         InputType(type1);
-        std::cout << "Ââåäèòå íîìåð ïåðâîé ìàòðèöû" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¯Ã¥Ã°Ã¢Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»" << std::endl;
         InputValue(value1, type1);
-        std::cout << "Ââåäèòå íîìåð âòîðîé ìàòðèöû" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¢Ã²Ã®Ã°Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»" << std::endl;
         InputValue(value2, type1);
     }
     else if (operationNumber == 5) {
         std::cout << "===============================\n"
-                  << " |    Ââåäèòå òèï ìàòðèöû    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n"
                   << " | 1. int                    |\n"
                   << " | 2. float                  |\n"
                   << " | 3. double                 |\n"
                   << "===============================\n";
         InputType(type1);
-        std::cout << "Ââåäèòå íîìåð ìàòðèöû" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»" << std::endl;
         InputValue(value1, type1);
         std::cout << "==================================\n"
-                  << " |    Ââåäèòå òèï ïåðåìåííîé    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã®Ã©    |\n"
                   << " | 1. int                       |\n"
                   << " | 2. float                     |\n"
                   << " | 3. double                    |\n"
@@ -196,30 +196,30 @@ void Application::InputForOperations(short int& type1, short int& type2, short i
             std::cout << ">>> ";
             std::cin >> type2;
             if (type2 >= 1 && type2 <= 3) break;
-            else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+            else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
         }
-        std::cout << "Ââåäèòå çíà÷åíèå ïåðåìåííîé: ";
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã¯Ã¥Ã°Ã¥Ã¬Ã¥Ã­Ã­Ã®Ã©: ";
         if (type2 == 1) std::cin >> matrices.intTempValue;
         else if (type2 == 2) std::cin >> matrices.floatTempValue;
         else std::cin >> matrices.doubleTempValue;
         std::cout << "=======================================================================\n"
-                  << " | Åñëè îïåðàöèÿ âûïîëíèòñÿ, òî ïîëó÷èâøàÿñÿ ìàòðèöà áóäåò äîáàâëåíà |\n"
-                  << " | â êîëëåêöèþ, êîòîðàÿ èìååò áîëüøèé òèï äàííûõ, èíà÷å âûâåäåòñÿ    |\n"
-                  << " | ñîîáùåíèå îá îøèáêå.                                              |\n"
+                  << " | Ã…Ã±Ã«Ã¨ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¨Ã²Ã±Ã¿, Ã²Ã® Ã¯Ã®Ã«Ã³Ã·Ã¨Ã¢Ã¸Ã Ã¿Ã±Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã  Ã¡Ã³Ã¤Ã¥Ã² Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã  |\n"
+                  << " | Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¾, ÃªÃ®Ã²Ã®Ã°Ã Ã¿ Ã¨Ã¬Ã¥Ã¥Ã² Ã¡Ã®Ã«Ã¼Ã¸Ã¨Ã© Ã²Ã¨Ã¯ Ã¤Ã Ã­Ã­Ã»Ãµ, Ã¨Ã­Ã Ã·Ã¥ Ã¢Ã»Ã¢Ã¥Ã¤Ã¥Ã²Ã±Ã¿    |\n"
+                  << " | Ã±Ã®Ã®Ã¡Ã¹Ã¥Ã­Ã¨Ã¥ Ã®Ã¡ Ã®Ã¸Ã¨Ã¡ÃªÃ¥.                                              |\n"
                   << "=======================================================================\n";
     }
     else if (operationNumber == 7) {
         std::cout << "===============================\n"
-                  << " |    Ââåäèòå òèï ìàòðèöû    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n"
                   << " | 1. int                    |\n"
                   << " | 2. float                  |\n"
                   << " | 3. double                 |\n"
                   << "===============================\n";
         InputType(type1);
-        std::cout << "Ââåäèòå íîìåð ìàòðèöû" << std::endl;
+        std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»" << std::endl;
         InputValue(value1, type1);
         std::cout << "=======================================\n"
-                  << " |    Ââåäèòå òèï âåêòîðà ñòîëáöà    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¢Ã¥ÃªÃ²Ã®Ã°Ã  Ã±Ã²Ã®Ã«Ã¡Ã¶Ã     |\n"
                   << " | 1. int                            |\n"
                   << " | 2. float                          |\n"
                   << " | 3. double                         |\n"
@@ -228,17 +228,17 @@ void Application::InputForOperations(short int& type1, short int& type2, short i
             std::cout << ">>> ";
             std::cin >> type2;
             if (type2 >= 1 && type2 <= 3) break;
-            else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+            else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
         }
         std::cout << "=======================================================================\n"
-                  << " | Åñëè îïåðàöèÿ âûïîëíèòñÿ, òî ïîëó÷èâøàÿñÿ ìàòðèöà áóäåò äîáàâëåíà |\n"
-                  << " | â êîëëåêöèþ, êîòîðàÿ èìååò áîëüøèé òèï äàííûõ, èíà÷å âûâåäåòñÿ    |\n"
-                  << " | ñîîáùåíèå îá îøèáêå.                                              |\n"
+                  << " | Ã…Ã±Ã«Ã¨ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¨Ã²Ã±Ã¿, Ã²Ã® Ã¯Ã®Ã«Ã³Ã·Ã¨Ã¢Ã¸Ã Ã¿Ã±Ã¿ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã  Ã¡Ã³Ã¤Ã¥Ã² Ã¤Ã®Ã¡Ã Ã¢Ã«Ã¥Ã­Ã  |\n"
+                  << " | Ã¢ ÃªÃ®Ã«Ã«Ã¥ÃªÃ¶Ã¨Ã¾, ÃªÃ®Ã²Ã®Ã°Ã Ã¿ Ã¨Ã¬Ã¥Ã¥Ã² Ã¡Ã®Ã«Ã¼Ã¸Ã¨Ã© Ã²Ã¨Ã¯ Ã¤Ã Ã­Ã­Ã»Ãµ, Ã¨Ã­Ã Ã·Ã¥ Ã¢Ã»Ã¢Ã¥Ã¤Ã¥Ã²Ã±Ã¿    |\n"
+                  << " | Ã±Ã®Ã®Ã¡Ã¹Ã¥Ã­Ã¨Ã¥ Ã®Ã¡ Ã®Ã¸Ã¨Ã¡ÃªÃ¥.                                              |\n"
                   << "=======================================================================\n";
     }
     else {
         std::cout << "=========================================\n"
-                  << " |    Ââåäèòå òèï óäàëÿåìîé ìàòðèöû    |\n"
+                  << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã³Ã¤Ã Ã«Ã¿Ã¥Ã¬Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n"
                   << " | 1. int                              |\n"
                   << " | 2. float                            |\n"
                   << " | 3. double                           |\n"
@@ -246,27 +246,27 @@ void Application::InputForOperations(short int& type1, short int& type2, short i
         InputType(type1);
         int msg;
         std::cout << "================================================\n"
-                  << " |               Ââåäèòå îïåðàöèþ             |\n"
-                  << " | 1. Óäàëèòü îïðåäåëåííóþ ìàòðèöó            |\n"
-                  << " | 2. Óäàëèòü âñå ìàòðèöû äàííîãî òèïà äàííûõ |\n"
+                  << " |               Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¾             |\n"
+                  << " | 1. Ã“Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã­Ã³Ã¾ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³            |\n"
+                  << " | 2. Ã“Ã¤Ã Ã«Ã¨Ã²Ã¼ Ã¢Ã±Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã¤Ã Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã¤Ã Ã­Ã­Ã»Ãµ |\n"
                   << "================================================\n";
         while (true) {
             std::cout << ">>> ";
             std::cin >> msg;
             if (msg == 1) {
-                std::cout << "Ââåäèòå íîìåð ìàòðèöû, êîòîðóþ õîòèòå óäàëèòü" << std::endl;
+                std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã», ÃªÃ®Ã²Ã®Ã°Ã³Ã¾ ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã³Ã¤Ã Ã«Ã¨Ã²Ã¼" << std::endl;
                 InputValue(value1, type1);
                 break;
             }
             else if (msg == 2) { value1 = -1; return; }
-            else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+            else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
         }
     }
 }
 
 void Application::OutputMatrixSettings(short int& type, short int& value) {
     std::cout << "=========================================\n"
-              << " |    Ââåäèòå òèï âûâîäèìîé ìàòðèöû    |\n"
+              << " |    Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã²Ã¨Ã¯ Ã¢Ã»Ã¢Ã®Ã¤Ã¨Ã¬Ã®Ã© Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»    |\n"
               << " | 1. int                              |\n"
               << " | 2. float                            |\n"
               << " | 3. double                           |\n"
@@ -274,23 +274,23 @@ void Application::OutputMatrixSettings(short int& type, short int& value) {
     InputType(type);
     int msg;
     std::cout << "================================================\n"
-              << " |               Ââåäèòå îïåðàöèþ             |\n"
-              << " | 1. Âûâåñòè îïðåäåëåííóþ ìàòðèöó            |\n"
-              << " | 2. Âûâåñòè âñå ìàòðèöû äàííîãî òèïà äàííûõ |\n"
+              << " |               Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¾             |\n"
+              << " | 1. Ã‚Ã»Ã¢Ã¥Ã±Ã²Ã¨ Ã®Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã¥Ã­Ã­Ã³Ã¾ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³            |\n"
+              << " | 2. Ã‚Ã»Ã¢Ã¥Ã±Ã²Ã¨ Ã¢Ã±Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã¤Ã Ã­Ã­Ã®Ã£Ã® Ã²Ã¨Ã¯Ã  Ã¤Ã Ã­Ã­Ã»Ãµ |\n"
               << "================================================\n";
     while (true) {
         std::cout << ">>> ";
         std::cin >> msg;
         if (msg == 1) break;
         else if (msg == 2) { value = -1; return; }
-        else std::cout << "Âû ââåëè íåêîððåêòíîå ÷èñëî. Ïîïðîáóéòå ñíîâà." << std::endl;
+        else std::cout << "Ã‚Ã» Ã¢Ã¢Ã¥Ã«Ã¨ Ã­Ã¥ÃªÃ®Ã°Ã°Ã¥ÃªÃ²Ã­Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã®. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã±Ã­Ã®Ã¢Ã ." << std::endl;
     }
-    std::cout << "Ââåäèòå íîìåð ìàòðèöû, êîòîðóþ õîòèòå âûâåñòè" << std::endl;
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã­Ã®Ã¬Ã¥Ã° Ã¬Ã Ã²Ã°Ã¨Ã¶Ã», ÃªÃ®Ã²Ã®Ã°Ã³Ã¾ ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã¢Ã»Ã¢Ã¥Ã±Ã²Ã¨" << std::endl;
     InputValue(value, type);
 }
 
 void Application::OutputMatrixSettings(std::string& path, short int& type, short int& value) {
-    std::cout << "Ââåäèòå ïóòü äî ôàéëà, â êîòîðûé õîòèòå âûâåñòè ìàòðèöó\n"
+    std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã³Ã²Ã¼ Ã¤Ã® Ã´Ã Ã©Ã«Ã , Ã¢ ÃªÃ®Ã²Ã®Ã°Ã»Ã© ÃµÃ®Ã²Ã¨Ã²Ã¥ Ã¢Ã»Ã¢Ã¥Ã±Ã²Ã¨ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã³\n"
               << ">>> ";
     std::cin >> path;
     OutputMatrixSettings(type, value);
@@ -298,16 +298,16 @@ void Application::OutputMatrixSettings(std::string& path, short int& type, short
 
 void Application::zeroOperation() {
     if (matrices.intMatrices.size() > 0 || matrices.floatMatrices.size() > 0 || matrices.doubleMatrices.size() > 0) {
-        std::string path; std::cout << "Ââåäèòå ïóòü ê ôàéëó, â êîòîðûé çàïèøóòñÿ âñå ñîçäàííûå ìàòðèöû\n>>> "; std::cin >> path;
+        std::string path; std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã¯Ã³Ã²Ã¼ Ãª Ã´Ã Ã©Ã«Ã³, Ã¢ ÃªÃ®Ã²Ã®Ã°Ã»Ã© Ã§Ã Ã¯Ã¨Ã¸Ã³Ã²Ã±Ã¿ Ã¢Ã±Ã¥ Ã±Ã®Ã§Ã¤Ã Ã­Ã­Ã»Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã»\n>>> "; std::cin >> path;
         for (size_t i = 0; i < matrices.intMatrices.size(); i++)
             matrices.intMatrices[i]->OutputMatrixInFile(path);
         for (size_t i = 0; i < matrices.floatMatrices.size(); i++)
             matrices.floatMatrices[i]->OutputMatrixInFile(path);
         for (size_t i = 0; i < matrices.doubleMatrices.size(); i++)
             matrices.doubleMatrices[i]->OutputMatrixInFile(path);
-        std::cout << "Çàâåðøåíèå ïðîãðàììû. Âñå ñîçäàííûå ìàòðèöû çàïèñàíû â ôàéë";
+        std::cout << "Ã‡Ã Ã¢Ã¥Ã°Ã¸Ã¥Ã­Ã¨Ã¥ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã». Ã‚Ã±Ã¥ Ã±Ã®Ã§Ã¤Ã Ã­Ã­Ã»Ã¥ Ã¬Ã Ã²Ã°Ã¨Ã¶Ã» Ã§Ã Ã¯Ã¨Ã±Ã Ã­Ã» Ã¢ Ã´Ã Ã©Ã«";
     }
-    else std::cout << "Çàâåðøåíèå ïðîãðàììû.";
+    else std::cout << "Ã‡Ã Ã¢Ã¥Ã°Ã¸Ã¥Ã­Ã¨Ã¥ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã».";
     exit(0);
 }
 
@@ -481,21 +481,21 @@ void Application::seventhOperation() {
         if (type1 == 1) {
             if (type2 == 1) {
                 Matrix<int>* TempVector = new Matrix<int>(matrices.intMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *intTemp = *matrices.intMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else if (type2 == 2) {
                 Matrix<float>* TempVector = new Matrix<float>(matrices.intMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *floatTemp = *matrices.intMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else {
                 Matrix<double>* TempVector = new Matrix<double>(matrices.intMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *doubleTemp = *matrices.intMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
@@ -504,21 +504,21 @@ void Application::seventhOperation() {
         else if (type1 == 2) {
             if (type2 == 1) {
                 Matrix<int>* TempVector = new Matrix<int>(matrices.floatMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *floatTemp = *matrices.floatMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else if (type2 == 2) {
                 Matrix<float>* TempVector = new Matrix<float>(matrices.floatMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *floatTemp = *matrices.floatMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else {
                 Matrix<double>* TempVector = new Matrix<double>(matrices.floatMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *doubleTemp = *matrices.floatMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
@@ -527,21 +527,21 @@ void Application::seventhOperation() {
         else {
             if (type2 == 1) {
                 Matrix<int>* TempVector = new Matrix<int>(matrices.doubleMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *doubleTemp = *matrices.doubleMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else if (type2 == 2) {
                 Matrix<float>* TempVector = new Matrix<float>(matrices.doubleMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *doubleTemp = *matrices.doubleMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
             }
             else {
                 Matrix<double>* TempVector = new Matrix<double>(matrices.doubleMatrices[value1 - 1]->getRows(), 1);
-                std::cout << "Ðàçìåð òåêóùåãî âåêòîðà: (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
+                std::cout << "ÃÃ Ã§Ã¬Ã¥Ã° Ã²Ã¥ÃªÃ³Ã¹Ã¥Ã£Ã® Ã¢Ã¥ÃªÃ²Ã®Ã°Ã : (" << TempVector->getRows() << ", " << TempVector->getColumns() << ")" << std::endl;
                 TempVector->InputOwnMatrix();
                 *doubleTemp = *matrices.doubleMatrices[value1 - 1] * *TempVector;
                 TempVector->~Matrix();
@@ -557,9 +557,9 @@ void Application::seventhOperation() {
 void Application::eigthOperation() {
     short int type, value1, value2;
     InputForOperations(type, type, value1, value2, 8);
-    if (type == 1) *matrices.intMatrices[value1 - 1] == *matrices.intMatrices[value2 - 1] ? std::cout << "Ìàòðèöû ðàâíîçíà÷íû" << std::endl : std::cout << "Ìàòðèöû íåðàâíîçíà÷íû" << std::endl;
-    else if (type == 2) *matrices.floatMatrices[value1 - 1] == *matrices.floatMatrices[value2 - 1] ? std::cout << "Ìàòðèöû ðàâíîçíà÷íû" << std::endl : std::cout << "Ìàòðèöû íåðàâíîçíà÷íû" << std::endl;
-    else *matrices.doubleMatrices[value1 - 1] == *matrices.doubleMatrices[value2 - 1] ? std::cout << "Ìàòðèöû ðàâíîçíà÷íû" << std::endl : std::cout << "Ìàòðèöû íåðàâíîçíà÷íû" << std::endl;
+    if (type == 1) *matrices.intMatrices[value1 - 1] == *matrices.intMatrices[value2 - 1] ? std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl : std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¥Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl;
+    else if (type == 2) *matrices.floatMatrices[value1 - 1] == *matrices.floatMatrices[value2 - 1] ? std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl : std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¥Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl;
+    else *matrices.doubleMatrices[value1 - 1] == *matrices.doubleMatrices[value2 - 1] ? std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl : std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã» Ã­Ã¥Ã°Ã Ã¢Ã­Ã®Ã§Ã­Ã Ã·Ã­Ã»" << std::endl;
 }
 
 void Application::nineOperation() {
@@ -610,7 +610,7 @@ void Application::eleventhOperation() {
         if (value != -1) matrices.intMatrices[value - 1]->OutputMatrix();
         else {
             for (size_t i = 0; i < matrices.intMatrices.size(); i++) {
-                std::cout << "Ìàòðèöà íîìåð " << i + 1 << ":" << std::endl;
+                std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã  Ã­Ã®Ã¬Ã¥Ã° " << i + 1 << ":" << std::endl;
                 matrices.intMatrices[i]->OutputMatrix();
             }
         }
@@ -620,7 +620,7 @@ void Application::eleventhOperation() {
         if (value != -1) matrices.floatMatrices[value - 1]->OutputMatrix();
         else {
             for (size_t i = 0; i < matrices.floatMatrices.size(); i++) {
-                std::cout << "Ìàòðèöà íîìåð " << i + 1 << ":" << std::endl;
+                std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã  Ã­Ã®Ã¬Ã¥Ã° " << i + 1 << ":" << std::endl;
                 matrices.floatMatrices[i]->OutputMatrix();
             }
         }
@@ -630,7 +630,7 @@ void Application::eleventhOperation() {
         if (value != -1) matrices.doubleMatrices[value - 1]->OutputMatrix();
         else {
             for (size_t i = 0; i < matrices.doubleMatrices.size(); i++) {
-                std::cout << "Ìàòðèöà íîìåð " << i + 1 << ":" << std::endl;
+                std::cout << "ÃŒÃ Ã²Ã°Ã¨Ã¶Ã  Ã­Ã®Ã¬Ã¥Ã° " << i + 1 << ":" << std::endl;
                 matrices.doubleMatrices[i]->OutputMatrix();
             }
         }
@@ -678,7 +678,7 @@ void Application::twelfthOperation() {
 }
 
 void Application::thirteenthOperation() {
-    std::cout << "Î÷èùàþ îêíî âûâîäà..." << std::endl;
+    std::cout << "ÃŽÃ·Ã¨Ã¹Ã Ã¾ Ã®ÃªÃ­Ã® Ã¢Ã»Ã¢Ã®Ã¤Ã ..." << std::endl;
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
     system("cls");
 }
@@ -688,16 +688,16 @@ void Application::ExecuteOperation(const std::function<void()>& func) {
     while (true) {
         func();
         std::cout << "==============================\n"
-            << " | Âåðíóòüñÿ â ãëàâíîå ìåíþ |\n"
-            << " | 1. Äà                    |\n"
-            << " | 2. Íåò                   |\n"
+            << " | Ã‚Ã¥Ã°Ã­Ã³Ã²Ã¼Ã±Ã¿ Ã¢ Ã£Ã«Ã Ã¢Ã­Ã®Ã¥ Ã¬Ã¥Ã­Ã¾ |\n"
+            << " | 1. Ã„Ã                     |\n"
+            << " | 2. ÃÃ¥Ã²                   |\n"
             << "==============================\n";
         while (true) {
             std::cout << ">>> ";
             std::cin >> back;
             if (back == 1) return;
             else if (back == 2) break;
-            else std::cout << "Ââåäåíà íåâåðíàÿ îïåðàöèÿ." << std::endl;
+            else std::cout << "Ã‚Ã¢Ã¥Ã¤Ã¥Ã­Ã  Ã­Ã¥Ã¢Ã¥Ã°Ã­Ã Ã¿ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¿." << std::endl;
         }
     }
 }
@@ -711,16 +711,16 @@ void Application::StartApplication() {
     while (true) {
         printMenu();
         std::cin >> option;
-        if (option < 0 || option > 14) std::cout << "Âû íåâåðíî ââåëè çíà÷åíèå îïåðàöèè. Ïîïðîáóéòå åùå ðàç." << std::endl;
+        if (option < 0 || option > 14) std::cout << "Ã‚Ã» Ã­Ã¥Ã¢Ã¥Ã°Ã­Ã® Ã¢Ã¢Ã¥Ã«Ã¨ Ã§Ã­Ã Ã·Ã¥Ã­Ã¨Ã¥ Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¨. ÃÃ®Ã¯Ã°Ã®Ã¡Ã³Ã©Ã²Ã¥ Ã¥Ã¹Ã¥ Ã°Ã Ã§." << std::endl;
         else if (option == 0 || option == 14) ExecuteOperation(FuncVector[option]);
         else if (option == 13) thirteenthOperation();
         else {
             if (option == 1 || option == 2) ExecuteOperation(FuncVector[option]);
             else if ((option == 3 || option == 4 || option == 5 || option == 6 || option == 7 || option == 10 || option == 11 || option == 12)
-                && matrices.intMatrices.size() > 0 || matrices.floatMatrices.size() > 0 || matrices.doubleMatrices.size() > 0) ExecuteOperation(FuncVector[option]);
-            else if ((option == 8 || option == 9) && matrices.intMatrices.size() > 1 || matrices.floatMatrices.size() > 1 || matrices.doubleMatrices.size() > 1)
+                && (matrices.intMatrices.size() > 0 || matrices.floatMatrices.size() > 0 || matrices.doubleMatrices.size() > 0)) ExecuteOperation(FuncVector[option]);
+            else if ((option == 8 || option == 9) && (matrices.intMatrices.size() > 1 || matrices.floatMatrices.size() > 1 || matrices.doubleMatrices.size() > 1))
                 ExecuteOperation(FuncVector[option]);
-            else std::cout << "Íåäîñòàòî÷íî äàííûõ äëÿ âûïîëíåíèÿ äàííîé îïåðàöèè" << std::endl;
+            else std::cout << "ÃÃ¥Ã¤Ã®Ã±Ã²Ã Ã²Ã®Ã·Ã­Ã® Ã¤Ã Ã­Ã­Ã»Ãµ Ã¤Ã«Ã¿ Ã¢Ã»Ã¯Ã®Ã«Ã­Ã¥Ã­Ã¨Ã¿ Ã¤Ã Ã­Ã­Ã®Ã© Ã®Ã¯Ã¥Ã°Ã Ã¶Ã¨Ã¨" << std::endl;
         }
     }
 }
